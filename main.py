@@ -5,9 +5,6 @@ from oandaAPI import Broker
 import pandas as pd
 import numpy as np
 
-# Currency pairs interested in
-
-
 def main():
     oanda = Broker(API_KEY, ACCOUNT_ID)
     position_size = 2000
